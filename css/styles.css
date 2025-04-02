@@ -1,24 +1,26 @@
 body {
-  font-family: Roboto;
-  color: #2e2f42;
+  font-family: Roboto sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
-.nav a span {
+.logo {
+  font-family: Raleway sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+    text-decoration: none;
+}
+
+.logo-span {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
-}
-
-.nav>a {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
   color: #2e2f42;
 }
 
@@ -29,31 +31,33 @@ body {
 .nav-list>a {
   font-weight: 500;
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #2e2f42;
 
 }
-
-.nav-list>a:hover {
-
+.nav-list-a:focus {
   color: #404bbf;
-
 }
 
+.nav-list>a:hover {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
 .address a {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
 }
-
+.address-mail:focus {
+  color: #404bbf;
+}
 .address a:hover {
   color: #404bbf;
 }
@@ -64,22 +68,19 @@ body {
 
 .title {
   background-color: #2E2F42;
-  width: 1440px;
-  height: 600px;
 }
 
-.title>h1 {
+.title-t {
   font-weight: 700;
   font-size: 56px;
-
-  /* line-height: 60px; */
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
-.title>button {
+.servise {
+  font-family: Roboto sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -92,11 +93,13 @@ body {
   cursor: pointer;
 }
 
-.title>button:hover {
+.servise:hover {
   background-color: #404BBF;
 }
-
-.advantages h3 {
+.servise:focus {
+  background-color: #404BBF;
+}
+.advantages-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -107,96 +110,72 @@ body {
   list-style-type: none;
 }
 
-.advantages p {
+.advantages-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em
 }
 
 .our-team {
   background-color: #f4f4fd;
 }
-.our-team h2 {
+.our-team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .our-team ul {
   list-style-type: none;
 }
-.our-team h3 {
+.our-team-list {
+background-color: #FFFFFF;
+}
+.list-title {
 font-weight: 500;
   font-size: 20px;
-
-  /* line-height: 24px; */
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
 }
-.our-team p {
+.list-p {
 font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
 }
-.our-portfolio h2{
+.our-portfolio-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
   }
 .our-portfolio ul {
   list-style-type: none;
 }
 
-.our-portfolio h3 {
-  font-weight: 500;
-  font-size: 20px;
-
-  /* line-height: 24px; */
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
-.our-portfolio p {
-  font-weight: 400;
-  font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-}
 .footer {
   background-color: #2e2f42;
-  height: 312px;
 }
-.footer a span {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4D5AE5;
-}
-.footer>a {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #f4f4fd;
-}
-.footer p {
+
+ .logo-fs {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.16667;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #f4f4fd;
+ }
+.footer-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
